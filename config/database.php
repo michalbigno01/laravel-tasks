@@ -49,7 +49,7 @@ return [
             'host' => env('AZURE_MYSQL_HOST', '127.0.0.1'),
             'port' => env('AZURE_MYSQL_PORT', '3306'),
             'database' => env('AZURE_MYSQL_DBNAME', 'forge'),
-            'username' => env('AZURE_MRSQL_USERNAME', 'forge'),
+            'username' => env('AZURE_MYSQL_USERNAME', 'forge'),
             'password' => env('AZURE_MYSQL_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
